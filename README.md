@@ -9,33 +9,6 @@
 - **MySQL**: 8.0 (untuk Hive Metastore)
 - **SPARK**: 3.5.5
 
-## Prasyarat
-
-Sebelum memulai, pastikan Anda telah menginstal dan menyiapkan hal-hal berikut:
-
-1. **Install Docker Desktop**  
-   Unduh dan instal dari [https://www.docker.com/products/docker-desktop](https://www.docker.com/products/docker-desktop).
-
-2. **Login atau Daftar Akun Docker**  
-   Buka Docker Desktop dan login menggunakan akun Docker Anda. Jika belum punya, silakan daftar terlebih dahulu.
-
-3. **Install WSL dan Ubuntu 22.04 di Windows**  
-   Buka PowerShell (Run as Administrator) dan jalankan:
-   ```bash
-   wsl --install -d Ubuntu-24.04
-   ```
-
-4. **Buka Terminal Ubuntu (WSL)**  
-   Posisikan terminal di direktori `C:\`:
-   ```bash
-   cd /mnt/c
-   ```
-
-   Atau alternatif lain, gunakan terminal di Windows:
-   ```bash
-   cd C:\
-   ```
-
 ## Langkah Instalasi
 
 5. **Clone Repo**
