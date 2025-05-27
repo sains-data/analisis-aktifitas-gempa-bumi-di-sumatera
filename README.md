@@ -5,7 +5,7 @@
 - Rian Bintang Wijaya
 - Yunike Priskila Sitorus Pane
 
-# Big Data Spark - 
+# Big Data Spark 
 
 ## Versi Komponen
 - **Hadoop**: 3.4.1
