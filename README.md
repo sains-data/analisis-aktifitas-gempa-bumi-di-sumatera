@@ -1,3 +1,17 @@
+## Nama Aggota Kelompok : 
+
+- Happy Syahrul Ramadhan
+- Tessa Kania Sagala
+- Rian Bintang Wijaya
+- Yunike Priskila Sitorus Pane
+
+## Analisis Aktifitas Gempa Bumi di Sumatera
+<img src="https://github.com/user-attachments/assets/6ccbf4af-83f0-49f2-ac77-cb0872a5834b" alt="Gambar" style="display: block; margin: 0 auto;">
+
+## Arsitektur 
+<img src="https://github.com/user-attachments/assets/4b562c0f-316a-4973-af81-6e856c344dc5" alt="Gambar" style="display: block; margin: 0 auto;">
+
+
 # Big Data 
 
 ## Versi Komponen
@@ -142,7 +156,3 @@ lihat semua status apakah sudah dijalankan atau belum.
 |-------|----------|--------------------|
 | 9000  | SPARK Server | http://localhost:9000 |
 
-### Lainnya
-| Port  | Service  |
-|-------|----------|
-| 3306  | MySQL    |
