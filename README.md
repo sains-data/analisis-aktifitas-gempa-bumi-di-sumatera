@@ -49,7 +49,7 @@
    docker ps -a
    ```
 
-14. **Login ke Container**
+6. **Login ke Container**
    ```bash
    bash login.sh
    ```
@@ -59,13 +59,13 @@ cat /tmp/bootstrap.log
 ```
 lihat semua status apakah sudah dijalankan atau belum.
 
-15. **Cek Aktivitas Hive dan Port yang Tersedia**
+7. **Cek Aktivitas Hive dan Port yang Tersedia**
    Cek port apakah sudah aktif untuk `hivemetastore` di port 10000 dan `hiveserver2` di port 10001 dengan perintah:
    ```bash
    netstat -nlpt
    ```
 
-17. **Akses GUI Hiveserver**
+8. **Akses GUI Hiveserver**
    Cek juga antarmuka web GUI Hiveserver di:  
    [http://localhost:10002](http://localhost:10002).
 
@@ -92,7 +92,7 @@ lihat semua status apakah sudah dijalankan atau belum.
 
    
    
-21. **Masuk ke Spark Shell**
+10. **Masuk ke Spark Shell**
    ketik perintah berikut tetapi harus sudah masuk ke root bash
 
    ```bash
@@ -106,7 +106,7 @@ lihat semua status apakah sudah dijalankan atau belum.
    |-----------------------|-------|-----------------------------|
    | **SPARK UI**         | 4040  | http://localhost:4040       |
 
-23. **Hentikan Container**
+11. **Hentikan Container**
    Hentikan container dengan menjalankan:
    ```bash
    bash stop.sh
