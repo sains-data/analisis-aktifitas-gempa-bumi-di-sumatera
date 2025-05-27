@@ -22,7 +22,7 @@
    git clone
    ```
 
-2. **Download Dependencies** -:
+2. **Download Dependencies**:
    - [Hadoop 3.4.1](https://downloads.apache.org/hadoop/common/hadoop-3.4.1/hadoop-3.4.1.tar.gz)
    - [Hive 4.0.1](https://downloads.apache.org/hive/hive-4.0.1/apache-hive-4.0.1-bin.tar.gz)  
    - [HBase 2.5.11](https://archive.apache.org/dist/hbase/2.5.11/hbase-2.5.11-bin.tar.gz)
