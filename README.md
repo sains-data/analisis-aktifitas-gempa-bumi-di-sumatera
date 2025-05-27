@@ -95,25 +95,13 @@ lihat semua status apakah sudah dijalankan atau belum.
    ```bash
    spark-shell
    ```
-   tunggu sampai muncul logo spark 3.5.5
+   tunggu sampai muncul logo spark
 
    Detail Akses GUI SPARK:
 
    | Komponen SPARK      | Port  | URL Akses                   |
    |-----------------------|-------|-----------------------------|
    | **SPARK UI**         | 4040  | http://localhost:4040       |
-
-   untuk keluar dari spark-shell maka ketik `CTRL + C` di keyboard, lalu kita akan masuk ke root bash
-
-kegiatan dilanjutkan ke latihan. 
-
-Berikut ini cara untuk keluar dari root bash dan menghentikan container
-
-22. **Keluar dari Root bash**
-   ketik:
-   ```bash
-   exit
-   ```
 
 23. **Hentikan Container**
    Hentikan container dengan menjalankan:
@@ -157,6 +145,10 @@ Berikut ini cara untuk keluar dari root bash dan menghentikan container
 | Port  | Service  | URL                |
 |-------|----------|--------------------|
 | 4040  | SPARK UI | http://localhost:4040 |
+
+| Port  | Service  | URL                |
+|-------|----------|--------------------|
+| 9000  | SPARK Server | http://localhost:9000 |
 
 ### Lainnya
 | Port  | Service  |
