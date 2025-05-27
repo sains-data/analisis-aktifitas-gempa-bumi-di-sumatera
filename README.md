@@ -1,11 +1,9 @@
 # Big Data Spark - Single Node Cluster with Docker
 
-Praktikum ini membuat sebuah *single-node Spark cluster* menggunakan Docker dengan integrasi MySQL untuk penyimpanan data Hive Metastore dan ZooKeeper untuk koordinasi HBase serta engine pemrosesan data dengan Spark. Anda dapat melakukan percobaan atau pembelajaran Big Data lokal di Windows.
-
 ## Versi Komponen
 - **Hadoop**: 3.4.1
 - **Hive**: 4.0.1
-- **Tez**: 0.10.4 
+- **Flume**: 1.6.0 
 - **HBase**: 2.5.11
 - **ZooKeeper**: 3.8.4
 - **MySQL**: 8.0 (untuk Hive Metastore)
@@ -39,8 +37,6 @@ Sebelum memulai, pastikan Anda telah menginstal dan menyiapkan hal-hal berikut:
    ```
 
 ## Langkah Instalasi
-
-Setelah prasyarat selesai, ikuti langkah-langkah berikut:
 
 5. **Clone Repo**
    ```bash
