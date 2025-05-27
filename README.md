@@ -1,4 +1,4 @@
-# Big Data Spark - Single Node Cluster with Docker
+# Big Data 
 
 ## Versi Komponen
 - **Hadoop**: 3.4.1
@@ -16,7 +16,7 @@
    git clone
    ```
 
-2. **Download Dependencies** - jika belum memiliki file yang diperlukan:
+2. **Download Dependencies** :
    - [Hadoop 3.4.1](https://downloads.apache.org/hadoop/common/hadoop-3.4.1/hadoop-3.4.1.tar.gz)
    - [Hive 4.0.1](https://downloads.apache.org/hive/hive-4.0.1/apache-hive-4.0.1-bin.tar.gz)  
    - [HBase 2.5.11](https://archive.apache.org/dist/hbase/2.5.11/hbase-2.5.11-bin.tar.gz)
@@ -64,9 +64,6 @@ lihat semua status apakah sudah dijalankan atau belum.
    |-----------------------|-------|-----------------------------|
    | **Hive Web UI**       | 10002 | http://localhost:10002       |
 
-18. **Keluar dari Koneksi Hive**
-   Setelah selesai, tekan `Ctrl + C` untuk keluar dari koneksi Beeline.
-
 19. **Akses HBase Shell**:
    ```bash
    hbase shell
@@ -82,16 +79,11 @@ lihat semua status apakah sudah dijalankan atau belum.
    | **HBase Master UI**   | 16010 | http://localhost:16010      |
    | **HBase REST API**    | 16030 | http://localhost:16030      |
 
-
-20. **Keluar dari hbase**
-   Setelah keluar dari hbase shell, ketik:
-   ```bash
-   exit
-   ```
-   selanjutnya kita akan masuk ke root bash
-
+   
+   
 21. **Masuk ke Spark Shell**
-   ketik perintah berikut
+   ketik perintah berikut tetapi harus sudah masuk ke root bash
+
    ```bash
    spark-shell
    ```
