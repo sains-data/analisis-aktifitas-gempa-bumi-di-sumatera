@@ -8,13 +8,10 @@
 ## Analisis Aktifitas Gempa Bumi di Sumatera
 <img src="https://github.com/user-attachments/assets/6ccbf4af-83f0-49f2-ac77-cb0872a5834b" alt="Gambar" style="display: block; margin: 0 auto;">
 
-## Arsitektur 
+## Arsitektur Big Data
 <img src="https://github.com/user-attachments/assets/4b562c0f-316a-4973-af81-6e856c344dc5" alt="Gambar" style="display: block; margin: 0 auto;">
 
-
-# Big Data 
-
-## Versi Komponen
+## Requirement Komponen
 - **Hadoop**: 3.4.1
 - **Hive**: 4.0.1
 - **Flume**: 1.6.0 
